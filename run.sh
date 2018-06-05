@@ -3,20 +3,8 @@
 #echo arguments to the shell
 
 DB_NAME=synth16d
-DB_TRAIN=\"/home/aocsa/dataset/$DB_NAME/$DB_NAME.TRAIN\"
-DB_SIZE=10000
-WORD_SIZE=8
-CARDINALITY=8
-MASK_SIZE=7
-ITERATIONS=7
-THREADS=256
-ARCH=sm_61
-MAIN=RandomProjection.cu
-EXE=rp-$DB_NAME.exe
-
-DB_NAME=synth16d
-DB_TRAIN=\"/home/aocsa/dataset/$DB_NAME/$DB_NAME.TRAIN\"
-DB_TEST=\"/home/aocsa/dataset/$DB_NAME/$DB_NAME.TEST\"
+DB_TRAIN=home/aocsa/datasets/$DB_NAME/$DB_NAME.TRAIN
+DB_TEST=home/aocsa/datasets/$DB_NAME/$DB_NAME.TEST
 DB_SIZE=10000
 QUERIES=10
 DIM=1024
