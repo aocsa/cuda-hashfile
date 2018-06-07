@@ -2,12 +2,12 @@
 # use predefined variables to access passed arguments
 #echo arguments to the shell
 
-DB_NAME=ucayalli
+DB_NAME=random-walk
 DB_TRAIN=home/aocsa/datasets/$DB_NAME/$DB_NAME.TRAIN
 DB_TEST=home/aocsa/datasets/$DB_NAME/$DB_NAME.TEST
-DB_SIZE=60000
+DB_SIZE=10000
 QUERIES=10
-DIM=34
+DIM=64
 SUCCESS=0.99
 nNN=10
 DISTANCE_TYPE=1
